@@ -8,17 +8,39 @@ body{
 }
 
 .logo{
-	background: url(../assets/logo.png)no-repeat; width:210px;height:222px;
-	
+	/*background: url(../assets/logo.png)no-repeat; width:210px;height:222px;*/
+	float:left;
+	margin-top:20px;
+	margin-bottom: 10px;
 }
 .menu{
-	
+	 padding:0;
+  margin:0;
 }
 .menu ul li{
 	display: inline-block;
 	list-style: none;
 	padding-right: 78px;
+	margin-top: 60px;
+	color:#2AAAE1;
+	
+	
 }
+.menu ul li a{
+	display: block;
+	list-style: none;
+	color:#2AAAE1;
+	font-size:15px;
+    cursor: pointer;
+ border-radius: 30px;
+	
+}
+.menu ul li a:hover{
+		color:#1E1E1D;
+	
+}
+ .menu  ul li a.active { color: red }
+
 .banner{
 	background: url(../assets/slider.png)no-repeat;width:1024px; height:536px;
 }
@@ -30,4 +52,33 @@ body{
 }
 .contactform{
 	float: right;
+}
+.description{
+	background-color: #064C7F;
+	color:white;
+	font-size: 40pt;
+	margin-left: 10px;
+	padding-left: 28px;
+}
+.quote p{
+	font-size: 26pt;
+	font-color: #1E1E1D;
+	text-align:center;
+}
+p.notes{
+	 font-size: 20pt;
+	 color: #1E1E1D;
+}
+p.headings{
+	margin-top: 5px;
+	font-size: 32pt;
+	color: #2AAAE1;
+	padding: 14px 0 10px 0;
+}
+.sideimages{
+
+margin-left: 5px;
+}
+.right{
+	margin-left: -300px;
 }

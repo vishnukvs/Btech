@@ -3,7 +3,8 @@ Tech::Application.routes.draw do
   root :to => 'site#home'
   get 'about'=>'site#about'
   get 'services'=>'site#services'
-  get 'contact'=> 'site#services'
+  get 'contact'=> 'site#contact'
+  get 'home'=>'site#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
